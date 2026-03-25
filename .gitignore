@@ -1,77 +1,38 @@
-# ========================
-# Python
-# ========================
+# 🔹 Virtual Environment
+.venv/
+notebook_env/
+
+# 🔹 VS Code settings
+.vscode/
+
+# 🔹 Python cache files
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-.Python
 
-# ========================
-# Virtual Environment
-# ========================
-.virtual_documents/
-venv/
-env/
-.env
-*.env
-
-# ========================
-# Jupyter Notebooks & Checkpoints
-# ========================
-.ipynb_checkpoints/
-notebooks/
-*.ipynb
-
-# ========================
-# ML Models (Large Files)
-# ========================
-models/predict_flag_invoice.pkl
-models/predict_freight_model.pkl
-models/scaler.pkl
-
-# ========================
-# Database
-# ========================
-data/inventory.db
-*.db
-*.sqlite
-
-# ========================
-# Pycache in Subfolders
-# ========================
-inference/__pycache__/
-Freight Cost Prediction/__pycache__/
-Invoice Flagging/__pycache__/
-
-# ========================
-# Ipynb Checkpoints in Subfolders
-# ========================
-Freight Cost Prediction/.ipynb_checkpoints/
-Invoice Flagging/.ipynb_checkpoints/
-inference/.ipynb_checkpoints/
-data/.ipynb_checkpoints/
+# 🔹 Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# ========================
-# App Checkpoint
-# ========================
-app-checkpoint.py
+# 🔹 Data files (avoid large/raw datasets)
+data/
 
-# ========================
-# VS Code
-# ========================
-.vscode/
-*.code-workspace
+# 🔹 Logs & temp files
+*.log
+*.tmp
 
-# ========================
-# OS Files
-# ========================
+# 🔹 OS files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ========================
-# Streamlit
-# ========================
-.streamlit/secrets.toml
+# 🔹 Environment variables (if you add later)
+.env
+
+# 🔹 Large model artifacts (OPTIONAL - read below)
+# Uncomment if models become large
+# *.pkl
+
+# 🔹 Build files
+dist/
+build/
+*.egg-info/
